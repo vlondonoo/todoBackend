@@ -16,7 +16,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "sequelize": "^6.29.0",
-    /*B-addPackages*/
+    /*B-addDependencies*/
     "sqlite3": "^5.1.4"
   },
   "devDependencies": {
@@ -26,7 +26,7 @@
     "@types/node": "^18.14.4",
     "@types/validator": "^13.7.13",
     "ts-node": "^10.9.1",
-    /*B-addPackagesDependencies*/
+    /*B-addDevDependencies*/
     "typescript": "^4.9.5"
   }
 }

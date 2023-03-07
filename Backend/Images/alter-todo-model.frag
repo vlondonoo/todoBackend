@@ -1,7 +1,7 @@
-Fragment Images-alterAddModelImages {
+Fragment Images-alterAddModelAttributes {
     Action: add
     Priority: high
-    FragmentationPoints: addModelImages
+    FragmentationPoints: addModelAttributes
     PointBracketsLan: java
     Destinations: Backend-BasicStructure-Todo
     SourceCode: [ALTERCODE-FRAG]

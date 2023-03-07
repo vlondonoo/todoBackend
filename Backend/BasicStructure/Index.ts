@@ -4,7 +4,7 @@ import cors from "cors";
 import bodyParser from "body-Parser";
 import TodoController from './controllers/TodoController';
 import DBConfig from './db/DBConfig';
-/*B-addImageImport*/
+/*B-addImports*/
 
 class Index {
   public static app: Express;
@@ -15,7 +15,7 @@ class Index {
     Index.app.use(cors({origin: '*'}));
     Index.app.use(bodyParser.urlencoded({ extended: true }));
     Index.app.use(bodyParser.json());
-    /*B-addUseFunctions*/
+    /*B-addAppUseCalls*/
     await Index.startDB();
     Index.configRoutes();
     Index.startServer();
@@ -37,7 +37,7 @@ class Index {
     Index.app.get('/todos/closed', TodoController.listClosed);
     Index.app.get('/todos/delete/:id', TodoController.delete);
     Index.app.get('/todos/update/:id/:state', TodoController.update);
-    /*B-addListEndpoints*/
+    /*B-addRoutes*/
   } 
 
   public static startServer(){

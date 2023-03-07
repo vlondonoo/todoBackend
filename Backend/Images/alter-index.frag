@@ -1,7 +1,7 @@
-Fragment Images-alterAddImageImport {
+Fragment Images-alterAddImports {
     Action: add
     Priority: high
-    FragmentationPoints: addImageImport
+    FragmentationPoints: addImports
     PointBracketsLan: java
     Destinations: Backend-BasicStructure-Index
     SourceCode: [ALTERCODE-FRAG]
@@ -9,10 +9,10 @@ Fragment Images-alterAddImageImport {
     [/ALTERCODE-FRAG]
 }
 
-Fragment Images-alterAddUseFunctions {
+Fragment Images-alterAddAppUseCalls {
     Action: add
     Priority: high
-    FragmentationPoints: addUseFunctions
+    FragmentationPoints: addAppUseCalls
     PointBracketsLan: java
     Destinations: Backend-BasicStructure-Index
     SourceCode: [ALTERCODE-FRAG]

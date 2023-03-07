@@ -1,7 +1,7 @@
-Fragment Sorting-alterAddListMethods {
+Fragment Sorting-alterAddControllerMethods {
     Action: add
     Priority: high
-    FragmentationPoints: addListMethods
+    FragmentationPoints: addControllerMethods
     PointBracketsLan: java
     Destinations: Backend-BasicStructure-TodoController
     SourceCode: [ALTERCODE-FRAG]

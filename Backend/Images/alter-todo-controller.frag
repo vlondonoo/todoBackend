@@ -1,7 +1,7 @@
-Fragment Images-alterAddFiles {
+Fragment Images-alterAddCreateActions {
     Action: add
     Priority: high
-    FragmentationPoints: addFiles
+    FragmentationPoints: addCreateActions
     PointBracketsLan: java
     Destinations: Backend-BasicStructure-TodoController
     SourceCode: [ALTERCODE-FRAG]
@@ -15,10 +15,10 @@ Fragment Images-alterAddFiles {
     [/ALTERCODE-FRAG]
 }
 
-Fragment Images-alterAddDbImage {
+Fragment Images-alterAddTodoCreateValues {
     Action: add
     Priority: high
-    FragmentationPoints: addDbImage
+    FragmentationPoints: addTodoCreateValues
     PointBracketsLan: java
     Destinations: Backend-BasicStructure-TodoController
     SourceCode: [ALTERCODE-FRAG]
@@ -26,10 +26,10 @@ Fragment Images-alterAddDbImage {
     [/ALTERCODE-FRAG]
 }
 
-Fragment Images-alterAddDeleteImages {
+Fragment Images-alterAddDeleteActions {
     Action: add
     Priority: high
-    FragmentationPoints: addDeleteImages
+    FragmentationPoints: addDeleteActions
     PointBracketsLan: java
     Destinations: Backend-BasicStructure-TodoController
     SourceCode: [ALTERCODE-FRAG]

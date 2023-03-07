@@ -12,22 +12,20 @@ export default class TodoController {
     res.json({ "list": openTodos });
   }
 
-  /*B-addListMethods*/
-
   public static async create(req: Request, res: Response) {
-    /*B-addFiles*/
+    /*B-addCreateActions*/
 
     await Todo.create({
       message: req.body.message,
       state: "OPEN",
-      /*B-addDbImage*/
+      /*B-addTodoCreateValues*/
     });
     res.json({ "res": "Todo created successfully" });
   }
 
   public static async delete(req: Request, res: Response) {
     const id = req.params.id;
-    /*B-addDeleteImages*/
+    /*B-addDeleteActions*/
     await Todo.destroy({ where: { id: id } });
     res.json({ "res": "Todo deleted successfully" });
   }
@@ -38,4 +36,7 @@ export default class TodoController {
     await Todo.update({state: state}, { where: { id: id } });
     res.json({ "res": "Todo updated successfully" });
   }
+
+  /*B-addControllerMethods*/
+
 }

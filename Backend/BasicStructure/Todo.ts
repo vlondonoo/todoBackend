@@ -10,7 +10,7 @@ export default class Todo extends Model {
       },
       message: DataTypes.STRING,
       state: DataTypes.STRING,
-      /*B-addModelImages*/
+      /*B-addModelAttributes*/
     }, {
       sequelize,
       modelName: 'Todo'

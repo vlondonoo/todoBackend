@@ -1,7 +1,7 @@
-Fragment Images-alterAddpackages {
+Fragment Images-alterAddDependencies {
     Action: add
     Priority: high
-    FragmentationPoints: addPackages
+    FragmentationPoints: addDependencies
     PointBracketsLan: java
     Destinations: Backend-BasicStructure-package
     SourceCode: [ALTERCODE-FRAG]
@@ -9,10 +9,10 @@ Fragment Images-alterAddpackages {
     [/ALTERCODE-FRAG]
 }
 
-Fragment Images-alterAddPackagesDependencies {
+Fragment Images-alterAddDevDependencies {
     Action: add
     Priority: high
-    FragmentationPoints: addPackagesDependencies
+    FragmentationPoints: addDevDependencies
     PointBracketsLan: java
     Destinations: Backend-BasicStructure-package
     SourceCode: [ALTERCODE-FRAG]

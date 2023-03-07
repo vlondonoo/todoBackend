@@ -1,7 +1,7 @@
-Fragment Sorting-alterAddListEndpoints {
+Fragment Sorting-alterAddRoutes {
     Action: add
     Priority: high
-    FragmentationPoints: addListEndpoints
+    FragmentationPoints: addRoutes
     PointBracketsLan: java
     Destinations: Backend-BasicStructure-Index
     SourceCode: [ALTERCODE-FRAG]
