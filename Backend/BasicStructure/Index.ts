@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 import express, { Express } from "express";
 import cors from "cors";
-import bodyParser from "body-Parser";
+import bodyParser from "body-parser";
 import TodoController from './controllers/TodoController';
 import DBConfig from './db/DBConfig';
 /*B-addImports*/
