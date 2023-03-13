@@ -1,3 +1,14 @@
+Fragment Images-alterAddControllerImports {
+    Action: add
+    Priority: high
+    FragmentationPoints: addControllerImports
+    PointBracketsLan: java
+    Destinations: Backend-BasicStructure-TodoController
+    SourceCode: [ALTERCODE-FRAG]
+       import * as fs from 'fs';
+    [/ALTERCODE-FRAG]
+}
+
 Fragment Images-alterAddCreateActions {
     Action: add
     Priority: high
@@ -44,3 +55,4 @@ Fragment Images-alterAddDeleteActions {
         }
     [/ALTERCODE-FRAG]
 }
+
